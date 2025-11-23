@@ -15,7 +15,7 @@ description: "Študentský template pre súhrn projektu – tím, ciele, prínos
 
 # 👥 Authorship
 author: "Študent"
-authors: ["Študent", "", ""]
+authors: ["Maximilián Strečanský", "Adam Grík", ""]
 
 # 🗂 Classification
 category: "knife"
