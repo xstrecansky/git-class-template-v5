@@ -102,7 +102,7 @@ Deploy:
   
 Očakávané výstupy:
 - Funkčný prototyp IoT riešenia
-Webová aplikácia
+- Webová aplikácia
 
 ---
 
