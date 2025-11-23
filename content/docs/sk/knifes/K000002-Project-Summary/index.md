@@ -55,10 +55,16 @@ fm_reserved1: ""
 fm_reserved2: ""
 ---
 
+# Zamyslenie pre publikum
+![Old beehive](beehive.jpg)
+
 # 📘 Project Summary
 
-Tento príspevok slúži na zhrnutie informácií o projekte, jeho členoch a cieľoch.  
-Zároveň predstavuje úvod do tímovej spolupráce a základ pre ďalšie KNIFE záznamy.
+Systém umožňuje monitorovať stav včelích úľov pomocou IoT senzorov, ktoré priebežne zbierajú údaje o teplote, vlhkosti, aktivite a ďalších parametroch včelstva. Získané dáta sú spracovávané v reálnom čase a prezentované v interaktívnom používateľskom rozhraní s prehľadnými vizualizáciami.
+Súčasťou riešenia je aj inteligentný modul upozornení, ktorý na základe meraní automaticky deteguje neštandardné situácie a okamžite informuje používateľa o možnom riziku alebo zmene stavu včelstva.
+
+## Architektúra systému
+![Architektúra systému](diagram_cely_system.drawio.png)
 
 ---
 
@@ -74,6 +80,8 @@ Zároveň predstavuje úvod do tímovej spolupráce a základ pre ďalšie KNIFE
 - Hlavný cieľ:
   -  Implementácia systému na monitorovanie včelích úľov pomocou IoT
   -  Integrovať IoT platformu ThingsBoard na zber, analýzu a vizualizáciu nameraných údajov zo včelích úľov.
+ 
+  ![Ciel projektu](actual.png)
 ---
 
 ## 💡 Zámer a pridaná hodnota
@@ -81,6 +89,9 @@ Tento projekt sme si vybrali, pretože sa zameriava na modernizáciu včelárstv
 - Primárne pre včelárov, ktorí získajú nástroj na pohodlnejšie sledovanie stavu úľov
 - Nedostatočný prehľad o stave úľov bez fyzickej kontroly  
 - Prácu s IoT.
+
+### Identifikácia stavu včelstva na základe frekvencie 
+![Stavy včelstva](stavy.png)
 
 ---
 
@@ -101,8 +112,9 @@ Deploy:
 - Nasadenie systému a sprístupnenie webovej stránky
   
 Očakávané výstupy:
-- Funkčný prototyp IoT riešenia
-- Webová aplikácia
+- Funkčný prototyp monitorovacieho IoT zariadenia
+- IoT platforma
+- Prezentačna webová aplikácia
 
 ---
 
