@@ -15,7 +15,7 @@ description: "Študentský template pre súhrn projektu – tím, ciele, prínos
 
 # 👥 Authorship
 author: "Študent"
-authors: ["Maximilián Strečanský", "Adam Grík", ""]
+authors: ["", "", ""]
 
 # 🗂 Classification
 category: "knife"
@@ -65,31 +65,44 @@ Zároveň predstavuje úvod do tímovej spolupráce a základ pre ďalšie KNIFE
 ## 👥 Tím
 - **Názov tímu:**  
 - **Členovia:**  
-  - Meno 1 – rola  
-  - Meno 2 – rola  
-  - Meno 3 – rola  
+  - Adam Grík – Vývoj softvéru  
+  - Maximilián Strečanský – Vývoj hardvéru  
 
 ---
 
 ## 🎯 Ciele projektu
-- Hlavný cieľ:  
-- Vedľajšie ciele:  
-  - cieľ 1  
-  - cieľ 2  
-
+- Hlavný cieľ:
+  -  Implementácia systému na monitorovanie včelích úľov pomocou IoT
+  -  Integrovať IoT platformu ThingsBoard na zber, analýzu a vizualizáciu nameraných údajov zo včelích úľov.
 ---
 
 ## 💡 Zámer a pridaná hodnota
-Vysvetlite, **prečo** ste si vybrali tento projekt:  
-- pre koho má prínos,  
-- aký problém rieši,  
-- čo sa chcete naučiť.
+Tento projekt sme si vybrali, pretože sa zameriava na modernizáciu včelárstva a taktiež sme sa chceli naučiť pracovať s IoT
+- Primárne pre včelárov, ktorí získajú nástroj na pohodlnejšie sledovanie stavu úľov
+- Nedostatočný prehľad o stave úľov bez fyzickej kontroly  
+- Prácu s IoT.
 
 ---
 
 ## 🧭 Predpokladaný postup
-- Etapy projektu (podľa SDLC): Requirements → Design → Implementation → Test → Deploy  
-- Očakávané výstupy: dokumentácia, prototyp, prezentácia
+Requirements:
+- Identifikácia potrebných senzorov a integrácie s ThingsBoard.
+ 
+Design:
+- Návrh architektúry systému, dátového modelu a dashboardov.
+
+Implementation:
+- Implementácia IoT zariadení, nastavenie ThingsBoard, tvorba webovej aplikácie.
+
+Test:
+- Testovanie prenosu dát a funkčnosti dashboardov
+  
+Deploy:
+- Nasadenie systému a sprístupnenie webovej stránky
+  
+Očakávané výstupy:
+- Funkčný prototyp IoT riešenia
+Webová aplikácia
 
 ---
 
